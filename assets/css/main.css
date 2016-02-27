@@ -203,6 +203,15 @@ footer {
   color: white;
 }
 
+#Footer {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
+
 .google-maps {
     position: relative;
     padding-bottom: 50%; // This is the aspect ratio
