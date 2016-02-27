@@ -228,58 +228,36 @@ footer {
 
 .main {
     padding: 6em 0 4em 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.75);
+              fixed;
+    background-size:cover;
 }
 
-.main.firstheader {
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  color: rgba(255, 255, 255, 0.75);
-            fixed;
-  background-size:cover;
+#About {
   background-image: url("../../images/DSC_1536.JPG");
 }
 
-.main.secondheader {
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  color: rgba(255, 255, 255, 0.75);
-            fixed;
-  background-size:cover;
-  background-image: url("../../images/DSC_1536.JPG");
+#Menu {
+  background-image: url("../../images/IMG_6730.JPG");
 }
 
-.main.thirdheader {
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  color: rgba(255, 255, 255, 0.75);
-            fixed;
-  background-size:cover;
-  background-image: url("../../images/DSC_1536.JPG");
+#OurProcess {
+  background-image: url("../../images/IMG_6758.jpg");
 }
 
-.main.fourthheader {
-  width: 100%;
-  height: 100%;
-  background-color: #333;
-  color: rgba(255, 255, 255, 0.75);
-            fixed;
-  background-size:cover;
-  background-image: url("../../images/DSC_1536.JPG");
+#Contact {
+  background-image: url("../../images/contact.jpg");
 }
 
 /* Large */
 
 	@media screen and (max-width: 1140px) {
       .main {
-    padding: 4em 0 2em 0 ;
+    padding: 8em 0 6em 0 ;
     }
-
-    .main.firstheader {
-      background-attachment: scroll;
-      }
   }
 
   /* Medium */
