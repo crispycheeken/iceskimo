@@ -80,22 +80,30 @@
 
 
 
-
-    <section id="About" class="main firstheader">
+    <!--About-->
+    <section id="About" class="main">
           <h1>WHAT IS SHAVED SNOW</h1>
     </section>
     <div class="description">
-      <h3>ORIGIN</h3>
+        <h3>ORIGIN</h3>
       <hr width="25%"><br>
         <p>Shaved snow is a unique frozen dessert from the night markets of Taiwan.</p>
         <p>Its creamy and fluffy texture makes shaved wno the perfect alternative to icecream or froyo.</p>
-    <div>
+    </div>
 
-
-    <section id="Menu" class="main secondheader">
-      <h1>MENU <br><br><br><br><br></br></h1>
+    <!--Menu-->
+    <section id="Menu" class="main">
+      <h1><br>MENU <br><br><br><br><br></br></h1>
     </section>
-      <div class="description">
+        <div class="slick-slider responsive">
+          <div> <img src="http://placehold.it/500x500&text=One"> </div>
+          <div> <img src="http://placehold.it/500x500&text=Two"> </div>
+          <div> <img src="http://placehold.it/500x500&text=Three"> </div>
+          <div> <img src="http://placehold.it/500x500&text=Four"> </div>
+          <div> <img src="http://placehold.it/500x500&text=Five"> </div>
+        </div>
+        </div>
+      <div class="description" >
           <h3>SHAVED SNOW</h3>
             <hr width="25%"><br>
             <p>Choose a size, shaved snow flavor(s),and toppings. Pay by the ounce.
@@ -105,26 +113,30 @@
           <h3>DRINKS</h3>
             <hr width="25%"><br>
             <p>Fresh and made to order</p>
+            <br><br></br>
       </div>
 
-
-    <section id="OurProcess" class="main thirdheader">
-      <h1>HOW WE MAKE SNOW <br><br><br><br><br></br></h1>
+    <!--Process-->
+    <section id="OurProcess" class="main">
+      <h1><br>HOW WE MAKE SNOW <br><br><br><br><br></br></h1>
     </section>
-      <div class"description">
+      <div class="description">
         <h3>OUR PROCESS</h3>
         <hr width="25%"><br>
           <p>all of our ice blocks are hand made with fresh ingredients. No poeders, syrups, or artificial flavors. </p>
           <p> healthy organic fresh vegan gluten free non-GMO low calorie </p>
       </div>
 
-    <section id="Contact" class="main fourthheader">
-        <h1>CONTACT <br><br><br><br><br></br></h1>
+    <!--Contact-->
+    <section id="Contact" class="main">
+        <h1><br>CONTACT <br><br><br><br><br></br></h1>
     </section>
+      <div class="descriptioncontact">
         <h3>EMAIL</h3>
           <p>about@iceskimo.com</p>
         <h3>PHONE</h3>
           <p>(858)216-1111</p>
+      </div>
     <center>
             <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
             	<div class="form-group">
@@ -143,6 +155,7 @@
             </form>
     </center>
 
+    <!--Footer-->
     <section>
         <footer>
           <div class = "container" id="Footer">
@@ -199,5 +212,48 @@
     $('.drawer').drawer();
     });
     </script>
+
+    <script type="text/javascript">
+      $('.responsive').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        mobileFirst: true,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              centerMode: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              centerMode: true,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              centerMode: true
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+
+      });
+    </script>
+
   </body>
 </html>

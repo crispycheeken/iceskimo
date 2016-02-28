@@ -1,4 +1,5 @@
 @import url("fonts.css");
+@import url("slick.css");
 
 html, body {
   height: 100%;
@@ -11,7 +12,7 @@ h1 {
   padding-top:5em;
   font-size: 6em;
   line-height: 0.9;
-  color: #eeeeee;
+  color: #FFFFFF;
 }
 
 h1 span {
@@ -41,7 +42,7 @@ h3 {
   font-size: 20px;
   line-height: 2.1;
   letter-spacing: 2.5px;
-  color: #000000;
+  color: #D7B890;
 }
 
 h4 {
@@ -161,6 +162,10 @@ label {
   width: 75%;
 }
 
+.description {
+  margin:3em;
+}
+
 .drawer-hamburger {
   padding: 20px 1rem 30px;
   background-color: #ffffff;
@@ -233,24 +238,26 @@ footer {
     background-color: #333;
     color: rgba(255, 255, 255, 0.75);
               fixed;
-    background-size:cover;
+    background-position: center bottom,	center center;
+    background-size: auto,	cover;
 }
 
 #About {
-  background-image: url("../../images/DSC_1536.JPG");
+  background-image: url("../../images/overlay.png"), url("../../images/DSC_1536.JPG");
 }
 
 #Menu {
-  background-image: url("../../images/IMG_6730.JPG");
+  background-image: url("../../images/overlay.png"), url("../../images/IMG_6730.JPG");
 }
 
 #OurProcess {
-  background-image: url("../../images/IMG_6758.jpg");
+  background-image: url("../../images/overlay.png"), url("../../images/IMG_6758.jpg");
 }
 
 #Contact {
-  background-image: url("../../images/contact.jpg");
+  background-image: url("../../images/overlay.png"), url("../../images/contact.jpg");
 }
+
 
 /* Large */
 
@@ -271,14 +278,18 @@ footer {
     }
 
     /* Small */
-    @media screen and (max-width: 736px) {
+    @media screen and (max-width: 300px) {
       /* Main */
       .main {
-        padding: 3em 1.5em 1em 1.5em ;
+        padding: 1em 1.5em 1em 1.5em ;
+      }
+      .descriptioncontact{
+        margin: 3em;
+        text-align: left;
+      }
+
+      h1 {
+        font-size: 3em;
+        text-align: left;
       }
     }
-
-/*.description {
-  background: #ffffff;
-  box-shadow: 0 0 2px 0;
-}*/
