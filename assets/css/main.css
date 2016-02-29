@@ -230,6 +230,11 @@ footer {
     max-height:450px !important;
 }
 
+.instagram {
+  width: 100%;
+  /*height: 500px;*/
+}
+
 .main {
     padding: 6em 0 4em 0;
     width: 100%;
