@@ -1,5 +1,4 @@
 @import url("fonts.css");
-@import url("slick.css");
 
 html, body {
   height: 100%;
@@ -15,12 +14,6 @@ h1 {
   color: #FFFFFF;
 }
 
-h1 span {
-  color: white;
-  padding: 10px;
-  margin: -2em;
-  z-index: 1;
-}
 
 h2 {
   font-family: 'gotham-rounded';
@@ -86,6 +79,10 @@ label {
 
 }
 
+a, a:link, a:hover, a:active, a:visited {
+  text-decoration: none !important;
+}
+
 .carousel,
 .item,
 .active {
@@ -130,6 +127,8 @@ label {
 .container {
   padding-left: 0;
   padding-right: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .jumbotron {
@@ -163,7 +162,7 @@ label {
 }
 
 .description {
-  margin:3em;
+  margin:4em;
 }
 
 .drawer-hamburger {
@@ -242,6 +241,47 @@ footer {
     background-size: auto,	cover;
 }
 
+.store-info {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+#first_pic {
+  background-image: url(../../images/DSC_1536.JPG);
+}
+
+#blue_square{
+  background-image: url(../../images/blue_square.JPG);
+  color: white;
+  text-align: center;
+}
+
+.blue_square{
+  background-color: #43cde0;
+  color: white;
+  text-align: center;
+}
+
+.process_square {
+  width: 30%;
+  height: 30%;
+  background-size: cover;
+}
+
+.process_square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+
 #About {
   background-image: url("../../images/overlay.png"), url("../../images/DSC_1536.JPG");
 }
@@ -275,10 +315,15 @@ footer {
       .main {
         padding: 5em 3em 3em 3em ;
       }
+      h1 {
+        font-size: 5em;
+        text-align: left;
+      }
+
     }
 
     /* Small */
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 600px) {
       /* Main */
       .main {
         padding: 1em 1.5em 1em 1.5em ;
@@ -289,7 +334,34 @@ footer {
       }
 
       h1 {
-        font-size: 3em;
+        font-size: 4em;
         text-align: left;
       }
     }
+    #OurProcess {
+      background-image: url("../../images/overlay.png"), url("../../images/IMG_6758_smaller.jpg");
+    }
+
+    /* XXSmall */
+
+	@media screen and (max-width: 320px) {
+
+		/* Basic */
+
+			html, body {
+				min-width: 320px;
+			}
+
+		/* Main */
+
+			.main {
+				padding: 2em 1em 0.1em 1em ;
+			}
+
+      .descriptioncontact{
+        margin: 3em;
+        text-align: left;
+      }
+      #OurProcess {
+        background-image: url("../../images/overlay.png"), url("../../images/IMG_6758_smaller.jpg");
+      }
