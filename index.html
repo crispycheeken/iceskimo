@@ -33,10 +33,10 @@
       <nav class="drawer-nav" role="navigation">
         <ul class="drawer-menu">
           <li><a class="drawer-brand" href="#">ICESKIMO</a></li>
-          <li><a class="drawer-menu-item" href="#">WHAT IS SHAVED SNOW?</a></li>
-          <li><a class="drawer-menu-item" href="#">MENU AND SPECIALS</a></li>
-          <li><a class="drawer-menu-item" href="#">HOW WE MAKE SNOW</a></li>
-          <li><a class="drawer-menu-item" href="#">CONTACT US</a></li>
+          <li><a class="drawer-menu-item" href="#About">WHAT IS SHAVED SNOW?</a></li>
+          <li><a class="drawer-menu-item" href="#Menu">MENU AND SPECIALS</a></li>
+          <li><a class="drawer-menu-item" href="#OurProcess">HOW WE MAKE SNOW</a></li>
+          <li><a class="drawer-menu-item" href="#Contact">CONTACT US</a></li>
         </ul>
       </nav>
     </header>
@@ -60,26 +60,24 @@
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="images/DSC_1536.JPG" alt="Chania">
+            <div class="item active" id="firstCarousel">
             </div>
 
-            <div class="item">
-              <img src="http://placehold.it/1900x1080&text=Slide Two" alt="Chania">
+            <div class="item" id="secondCarousel">
             </div>
 
-            <div class="item">
-              <img src="http://placehold.it/1900x1080&text=Slide Three" alt="Flower">
+            <div class="item" id="thirdCarousel">
             </div>
 
-            <div class="item">
-              <img src="http://placehold.it/1900x1080&text=Slide Four" alt="Flower">
+            <div class="item" id="fourthCarousel">
             </div>
           </div>
-          <a href="#About" class="store-info"> Store Info </a>
+          <!--More Info Indicator -->
+            <a href="#About" class="store-info">MORE INFO <br/> <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"</span></a>
+
+          </div>
         </div>
       </div>
-    </div>
 
 
 
@@ -87,80 +85,79 @@
     <section id="About" class="main">
           <h1>WHAT IS SHAVED SNOW?</h1>
     </section>
-    <div class="description">
+    <div class="description" style="margin-top:-.6em;">
         <h3>ORIGIN</h3>
-      <hr width="25%"><br>
+      <hr></hr><br/>
         <p>Shaved snow is a unique frozen dessert from the night markets of Taiwan.</p>
         <p>Its creamy and fluffy texture makes shaved wno the perfect alternative to icecream or froyo.</p>
     </div>
 
     <!--Menu-->
     <section id="Menu" class="main">
-      <h1><br>MENU <br><br><br><br><br></br></h1>
+      <h1><br>MENU & SPECIALS<br/><br/><br/><br/><br/></h1>
     </section>
-    <!--slider -->
-        <div class="slick-slider responsive">
-          <div> <img src="http://placehold.it/500x500&text=One"> </div>
-          <div> <img src="http://placehold.it/500x500&text=Two"> </div>
-          <div> <img src="http://placehold.it/500x500&text=Three"> </div>
-          <div> <img src="http://placehold.it/500x500&text=Three"> </div>
-          <div> <img src="http://placehold.it/500x500&text=Three"> </div>
-        </div>
-
-
-      <div class="description" >
-          <h3>SHAVED SNOW</h3>
-            <hr width="25%"><br>
-            <p>Choose a size, shaved snow flavor(s),and toppings. Pay by the ounce.
-              <br>
-              SMALL • LARGE • PARTY
-            </p>
-          <h3>DRINKS</h3>
-            <hr width="25%"><br>
-            <p>Fresh and made to order</p>
-            <br><br></br>
-      </div>
+    <div class="description" >
+        <h3>SHAVED SNOW</h3>
+          <hr></hr><br>
+          <p>Choose a size, shaved snow flavor(s),and toppings. Pay by the ounce.
+            <br/><br/>
+            SMALL • LARGE • PARTY
+            <br/><br/>
+            <!--slider -->
+            <div style="slider-container">
+                <div class="slick-slider responsive">
+                  <div> <img src="images/IMG_6707_square.jpg"> </div>
+                  <div> <img src="images/IMG_6738_square.jpg"> </div>
+                  <div> <img src="images/DSC_0147_edit_square.jpg"> </div>
+                  <div> <img src="images/hot choco_tatiana.jpg"> </div>
+                  <div> <img src="images/DSC_1536.jpg"> </div>
+                </div>
+            </div>
+    </div>
 
     <!--Process-->
     <section id="OurProcess" class="main">
       <h1>HOW WE MAKE SNOW</h1>
     </section>
-    <div class="description">
+    <div class="process-description">
         <h3>OUR PROCESS</h3>
-        <hr width="25%"><br>
+        <hr></hr><br>
         <div class = "row">
-           <div class = "col-xs-6 process_square" id = "first_pic">
+           <div class = "col-xs-6 process_square" id = "process_pic">
            </div>
            <div class = "col-xs-6 process_square" id = "blue_square">
-             <p>all of our ice blocks are hand made with fresh ingredients. No powders, syrups, or artificial flavors. </p>
+             <p style="color:white;">all of our ice blocks are hand made with fresh ingredients. No powders, syrups, or artificial flavors. </p>
            </div>
          </div>
            <div class = "row">
               <div class = "col-xs-6 process_square">
                 <p> healthy organic fresh vegan gluten free non-GMO low calorie </p>
               </div>
-              <div class = "col-xs-6 process_square" id = "first_pic">
+              <div class = "col-xs-6 process_square" id = "natural_pic">
               </div>
             </div>
     </div>
     <center><section id = "instagram">
-      <div class="instagram">
         <h3>INSTAGRAM</h3>
-        <hr width="25%"><br>
-        <!-- LightWidget WIDGET -->
-        <script src="http://lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/4038f1680e045c43a60fcdbfe6e8bb1c.html" id="lightwidget_4038f1680e" name="lightwidget_4038f1680e"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+        <hr></hr><br>
+    </section>
+      <div class="instagram">
+        <!-- SnapWidget -->
+          <script src="http://snapwidget.com/js/snapwidget.js"></script>
+          <iframe src="http://snapwidget.com/in/?u=aWNlc2tpbW9fc25vd3xpbnwxMjV8M3wxfHxub3w1fG5vbmV8b25TdGFydHxub3x5ZXM=&ve=280216" title="Instagram Widget"
+          class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
       </div>
-    </section></center>
+    </center>
 
 
     <!--Contact-->
     <section id="Contact" class="main">
-        <h1><br>CONTACT <br><br><br><br><br></br></h1>
+        <h1><br>CONTACT<br><br><br><br><br></br></h1>
     </section>
       <div class="descriptioncontact">
-        <h3>EMAIL</h3>
+        <h3 style="color:#D7B890;">EMAIL</h3>
           <p>about@iceskimo.com</p>
-        <h3>PHONE</h3>
+        <h3 style="color:#D7B890;">PHONE</h3>
           <p>(858)216-1111</p>
       </div>
     <center>
@@ -183,44 +180,21 @@
 
     <!--Footer-->
     <section>
-        <footer>
-          <div class = "container" id="Footer">
-            <div id = "footer"><h4>STORE HOURS</h4>
+        <footer><center>
+          <div class = "container">
+            <div><h4>STORE HOURS</h4>
             <h5>Mon - Thu: 12pm - 10:30pm<br/>
             Fri - Sat: 12pm - 11:30pm<br/>
             Sun: 12pm-10pm</h5></div>
-            <div id = "footer"><h4>PHONE</h4>
+            <div><h4>PHONE</h4>
             <h5>(858) 216 - 1111</h5></div>
-            <div id = "footer"><h4>ADDRESS</h4>
+            <div><h4>ADDRESS</h4>
             <h5>Suite B, 4609 Convoy St.<br/>
-            San Diego, CA 92111</h5></div>
-            <div id = "Footer" style="overflow:hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.8067733321514!2d-117.1569264854998!3d32.823884388902734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff946668862d%3A0xb6bde2f9c0abc983!2sIceskimo!5e0!3m2!1sen!2sus!4v1456542457092" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          <!--  <div class = "row">
-              <div class = "col-xs-6">
-                <h4>STORE HOURS</h4>
-                <h5>Mon - Thu: 12pm - 10:30pm<br/>
-                Fri - Sat: 12pm - 11:30pm<br/>
-                Sun: 12pm-10pm</h5>
-              </div>
-              <div class = "col-xs-6">
-                <h4>PHONE</h4>
-                <h5>(858) 216 - 1111</h5>
-              </div>
-            </div>
-            <div class = "row">
-              <div class = "col-xs-6 col-lg-4">
-                <h4>ADDRESS</h4>
-                <h5>Suite B, 4609 Convoy St.<br/>
-                San Diego, CA 92111</h5>
-              </div>
-            <div class = "col-xs-12 col-sm-6 col-lg-8">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.8067733321514!2d-117.1569264854998!3d32.823884388902734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff946668862d%3A0xb6bde2f9c0abc983!2sIceskimo!5e0!3m2!1sen!2sus!4v1456542457092" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            San Diego, CA 92111</h5><br/></div>
+            <div style="overflow:hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.8067733321514!2d-117.1569264854998!3d32.823884388902734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff946668862d%3A0xb6bde2f9c0abc983!2sIceskimo!5e0!3m2!1sen!2sus!4v1456542457092" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
-        </div> -->
-          </div>
-        </footer>
+        </footer></center>
       </section>
 
 
@@ -241,6 +215,7 @@
     $('.drawer').drawer();
     });
     </script>
+
     <!--slider js -->
     <script type="text/javascript">
       $('.responsive').slick({
@@ -250,6 +225,7 @@
         autoplay: true,
         mobileFirst: true,
         arrows: false,
+        centerMode: true,
         responsive: [
           {
             breakpoint: 1024,
@@ -263,25 +239,44 @@
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 3,
               slidesToScroll: 1,
-              centerMode: true
+              centerMode: true,
+              infinite: true
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1,
+              slidesToShow: 3,
               slidesToScroll: 1,
-              centerMode: true
+              centerMode: true,
+              infinite: true
             }
           }
           // You can unslick at a given breakpoint now by adding:
           // settings: "unslick"
           // instead of a settings object
         ]
-
       });
+      </script>
+
+      <!--Smooth Scroll-->
+      <script>
+        $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+        });
       </script>
 
 
