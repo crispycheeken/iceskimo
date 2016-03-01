@@ -327,6 +327,7 @@ footer {
 }
 
 #natural_pic {
+  left:50%;
   background-image: url(../../images/topping_pomegranate.jpg);
 }
 
@@ -334,6 +335,10 @@ footer {
   background-color: #43CDE0;
   text-align: center;
   margin-bottom: -50%;
+  display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
 }
 
 #blue_square p {
@@ -343,6 +348,10 @@ footer {
 #white-square{
   margin-bottom: -50%;
   border-style: solid 2px #D7B890;
+  display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
 }
 
 .process_square {
@@ -470,6 +479,9 @@ a, a:link, a:hover, a:active, a:visited {
       .process-description {
         margin: 0;
       }
+      .process_square p {
+        font-size: 0.9em;
+      }
     }
 
     /* XXSmall */
@@ -511,6 +523,8 @@ a, a:link, a:hover, a:active, a:visited {
       }
       #Contact{
         background-image: url("../../images/overlay.png"), url("../../images/contact_360px.jpg");
-
+      }
+      .process_square p {
+        font-size: 0.9em;
       }
     }
