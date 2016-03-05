@@ -213,14 +213,14 @@ a, a:link, a:hover, a:active, a:visited {
 
 .drawer-nav {
   font-family: 'gotham-rounded';
-  width: 35%;
+  width: 40%;
   background-color: transparent;
   overflow:hidden;
 }
 
 .drawer--left.drawer-open .drawer-hamburger {
   position: fixed;
-  left: 35%;
+  left: 40%;
   background: transparent;
 }
 
@@ -233,6 +233,7 @@ a, a:link, a:hover, a:active, a:visited {
 }
 
 .drawer-menu-item {
+  font-size: 1.2em;
   margin-bottom: 1em;
   margin-left: .4em;
   overflow: hidden;
@@ -312,7 +313,7 @@ footer {
   position: absolute;
   bottom: 3%;
   left: 50%;
-  z-index: 15;
+  z-index: 1;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
@@ -322,6 +323,10 @@ footer {
   list-style: none;
   font-family: 'gotham-rounded';
   color: #ffffff;
+}
+
+.store-info a:hover {
+  color: #D7B890;
 }
 
 #process_pic {
@@ -403,6 +408,7 @@ input[type=submit] {
   font-size: 14px;
   border-radius: 4px;
   padding: 8px 16px;
+  margin-left: 0px;
 }
 
 .row {
