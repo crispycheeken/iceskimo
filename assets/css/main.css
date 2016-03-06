@@ -429,6 +429,21 @@ input[type=submit] {
   margin-right: 0px;
 }
 
+.text_description {
+  padding-bottom: 2.5em;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+.social_media {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+
 
 #About {
   background-image: url("../../images/overlay.png"), url("../../images/IMG_6766.jpg");
