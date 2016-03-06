@@ -527,14 +527,19 @@ input[type=submit] {
       }
 
     }
-
     /* Small */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
+      #process-p{
+        font-size: 1.2em;
+      }
+    }
+    /* Small */
+    @media screen and (max-width: 580px) {
       p {
         font-size: 1.3em;
       }
       #process-p {
-        font-size: 1.2em;
+        font-size: 0.8em;
       }
       /* Main */
       .main {
