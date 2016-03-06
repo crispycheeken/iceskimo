@@ -9,7 +9,7 @@ h1 {
   font-family: 'gotham-rounded';
   text-align: center;
   font-weight: bold;
-  padding-top:5.5em;
+  padding-top:4em;
   bottom: 30%;
   font-size: 6em;
   line-height: 115%;
@@ -51,6 +51,7 @@ h5 {
   font-family: "lato";
   font-size: .8em;
   color: #000000;
+  line-height: 1.5
 }
 
 p {
@@ -104,6 +105,10 @@ textarea:focus {
   box-shadow: 0 0 5px #43cde0;
 }
 
+input[type=submit]:hover {
+  background-color: #6ADDED;
+}
+
 input[type=submit] {
   background-color: #43cde0;
   border: none;
@@ -115,10 +120,6 @@ input[type=submit] {
   border-radius: 4px;
   padding: 8px 16px;
   margin-left: 50%;
-}
-
-input[type=submit]:hover {
-  background-color: #6ADDED;
 }
 
 a, a:link, a:hover, a:active, a:visited {
@@ -241,7 +242,7 @@ a, a:link, a:hover, a:active, a:visited {
   margin-bottom: 1em;
   margin-left: .4em;
   overflow: hidden;
-
+  z-index: 1;
 }
 
 .drawer-brand {
@@ -257,6 +258,7 @@ footer {
   color: #FFFFFF;
   padding-top: 20px;
   text-align: center;
+  font-size: 3vh;
 }
 
 .google-maps {
@@ -343,7 +345,7 @@ footer {
 }
 
 #blue_square{
-  background-color: #43CDE0;
+  background-color: #68d7e6;
   text-align: center;
   margin-bottom: -50%;
   display: -webkit-flex; /* Safari */
@@ -363,6 +365,7 @@ footer {
     -webkit-align-items: center; /* Safari 7.0+ */
     display: flex;
     align-items: center;
+  background-color: #e7d4bc;
 }
 
 .process_square {
@@ -435,7 +438,6 @@ input[type=submit] {
 #Contact {
   background-image: url("../../images/overlay.png"), url("../../images/contact.jpg");
 }
-
 
 /* Large */
 
