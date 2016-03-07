@@ -9,7 +9,7 @@ h1 {
   font-family: 'gotham-rounded';
   text-align: center;
   font-weight: bold;
-  padding-top: 3.4em;
+  padding-top: 2em;
   padding-bottom:30%;
   font-size: 6em;
   line-height: 115%;
@@ -91,6 +91,7 @@ label {
 form {
   margin-left: 20%;
   margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 input[type=text]:focus {
@@ -314,16 +315,12 @@ footer {
 }
 
 .logo {
-    position: absolute;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    margin-top: 0.5em;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none;
+  z-index:10;
+  margin-left: 42%;
+  padding-top: .5em;
+  position: absolute;
 }
+
 .slider-container{
   margin: auto 0px;
   padding-top: 2em;
@@ -406,6 +403,7 @@ footer {
 
 a, a:link, a:hover, a:active, a:visited {
   text-decoration: none !important;
+  color: #ffffff;
 }
 
 .store-info:visited {
@@ -414,10 +412,6 @@ a, a:link, a:hover, a:active, a:visited {
 
 .store-info:hover {
   color: #43CDE0;
-}
-
-.store-info:active {
-  color: #ffffff;
 }
 
 .drawer-menu-item:visited {
@@ -489,6 +483,9 @@ input[type=submit] {
     .main {
     padding: 8em 0 6em 0 ;
     }
+    .logo {
+      margin-left: 38%;
+    }
     hr {
       width: 40%;
     }
@@ -507,7 +504,9 @@ input[type=submit] {
       .main {
         padding: 5em 3em 3em 3em ;
       }
-
+      .logo {
+        margin-left: 35%;
+      }
       h1 {
         font-size: 5.3em;
         padding-top: 4.5em;
@@ -533,6 +532,9 @@ input[type=submit] {
         text-align: left;
         font-size: 5.6em;
       }
+      label {
+        font-size: 12px;
+      }
     }
 
     /* Small */
@@ -547,7 +549,9 @@ input[type=submit] {
       .main {
         padding: 1em 1.5em 1em 1.5em ;
       }
-
+      .logo {
+        margin-left: 28%;
+      }
       .descriptioncontact{
         margin: 3em;
         text-align: left;
@@ -576,6 +580,10 @@ input[type=submit] {
       .process_square p {
         font-size: 0.9em;
       }
+
+      label {
+        font-size: 12px;
+      }
     }
 
     /* XXSmall */
@@ -586,7 +594,7 @@ input[type=submit] {
       }
       h1 {
         font-size: 3.2em;
-        padding-top:3em;
+        padding-top:3.8em;
       }
       h3 {
         font-size: 1.5em;
@@ -605,7 +613,11 @@ input[type=submit] {
 				padding: 2em 1em 0.1em 1em ;
         background-position: bottom center, center center;
 			}
-
+      .logo {
+        width: 20%;
+        height: 20%;
+        margin-left: 13%;
+      }
 
       .process-description {
         width: 100%;
@@ -628,4 +640,7 @@ input[type=submit] {
       .process_square p {
         font-size: 0.9em;
       }
-    }
+
+      label {
+        font-size: 12px;
+      }
