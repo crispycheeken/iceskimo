@@ -89,8 +89,8 @@ label {
 }
 
 form {
-  width: 60%;
-  margin: 5em 30em 10em 30em;
+  margin-left: 20%;
+  margin-bottom: 3em;
 }
 
 input[type=text]:focus {
@@ -516,10 +516,6 @@ input[type=submit] {
       h3 {
         font-size: 1.9em;
       }
-      form {
-        width: 75%;
-        margin: 5em 20em 10em 12em;
-      }
 
       .process-description {
         width: 80%;
@@ -540,16 +536,6 @@ input[type=submit] {
       }
     }
 
-    /* iPhone */
-    @media only screen
-    and (max-device-width: 640px),
-    only screen and (max-device-width: 667px),
-    only screen and (max-width: 480px)
-    {
-      form {
-        margin:5em 12em 10em 2em;
-      }
-     }
     /* Small */
     @media screen and (max-width: 580px) {
       p {
@@ -581,10 +567,6 @@ input[type=submit] {
       }
       hr {
         width: 60%;
-      }
-
-      form {
-        margin:5em 12em 10em 6em;
       }
 
       #OurProcess {
@@ -652,9 +634,5 @@ input[type=submit] {
       }
       .process_square p {
         font-size: 0.9em;
-      }
-      form {
-        width: 95%;
-        margin: 3.3em;
       }
     }
