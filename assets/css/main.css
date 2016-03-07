@@ -9,7 +9,7 @@ h1 {
   font-family: 'gotham-rounded';
   text-align: center;
   font-weight: bold;
-  padding-top: 3em;
+  padding-top: 3.4em;
   padding-bottom:30%;
   font-size: 6em;
   line-height: 115%;
@@ -475,8 +475,8 @@ input[type=submit] {
 
 	@media screen and (max-width: 1140px) {
     h1 {
-      padding-top:2.7em;
-      font-size: 5em;
+      padding-top:3.5em;
+      font-size: 5.7em;
     }
     #process-p {
       font-size: 2.3em;
@@ -510,8 +510,8 @@ input[type=submit] {
         margin-left: 35%;
       }
       h1 {
-        font-size: 4.5em;
-        padding-top: 3.4em;
+        font-size: 5.3em;
+        padding-top: 4.5em;
       }
       h3 {
         font-size: 1.9em;
@@ -532,7 +532,24 @@ input[type=submit] {
       #process-p{
         font-size: 1.2em;
       }
+      h1 {
+        padding-top:3.2em;
+        bottom: 25%;
+        text-align: left;
+        font-size: 5.6em;
+      }
     }
+
+    /* iPhone */
+    @media only screen
+    and (max-device-width: 640px),
+    only screen and (max-device-width: 667px),
+    only screen and (max-width: 480px)
+    {
+      form {
+        margin:5em 12em 10em 2em;
+      }
+     }
     /* Small */
     @media screen and (max-width: 580px) {
       p {
@@ -554,7 +571,7 @@ input[type=submit] {
       }
 
       h1 {
-        padding-top: 3.3em;
+        padding-top: 4.6em;
         bottom: 20%;
         font-size: 5em;
         text-align: left;
@@ -564,6 +581,10 @@ input[type=submit] {
       }
       hr {
         width: 60%;
+      }
+
+      form {
+        margin:5em 12em 10em 6em;
       }
 
       #OurProcess {
@@ -585,7 +606,7 @@ input[type=submit] {
         min-width: 320px;
       }
       h1 {
-        font-size: 3.2em;
+        font-size: 3.5em;
         padding-top:4em;
       }
       h3 {
@@ -603,6 +624,7 @@ input[type=submit] {
 
 			.main {
 				padding: 2em 1em 0.1em 1em ;
+        background-position: bottom center, center center;
 			}
       .logo {
         width: 20%;
