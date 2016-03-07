@@ -317,7 +317,7 @@ footer {
 .logo {
   position: absolute;
   left: 50%;
-  z-index: 15;
+  z-index: 1;
   width: 60%;
   margin-top: 0.5em;
   padding-left: 0;
@@ -408,7 +408,6 @@ footer {
 
 a, a:link, a:hover, a:active, a:visited {
   text-decoration: none !important;
-  color: #ffffff;
 }
 
 .store-info:visited {
@@ -572,6 +571,7 @@ input[type=submit] {
 
       .process-description {
         margin: 0;
+        width: 100%;
       }
       .process_square p {
         font-size: 0.9em;
