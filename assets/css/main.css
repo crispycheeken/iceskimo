@@ -314,12 +314,16 @@ footer {
 }
 
 .logo {
-  z-index:10;
-  margin-left: 42%;
-  padding-top: .5em;
-  position: absolute;
+    position: absolute;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    margin-top: 0.5em;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
 }
-
 .slider-container{
   margin: auto 0px;
   padding-top: 2em;
@@ -485,9 +489,6 @@ input[type=submit] {
     .main {
     padding: 8em 0 6em 0 ;
     }
-    .logo {
-      margin-left: 38%;
-    }
     hr {
       width: 40%;
     }
@@ -506,9 +507,7 @@ input[type=submit] {
       .main {
         padding: 5em 3em 3em 3em ;
       }
-      .logo {
-        margin-left: 35%;
-      }
+
       h1 {
         font-size: 5.3em;
         padding-top: 4.5em;
@@ -548,9 +547,7 @@ input[type=submit] {
       .main {
         padding: 1em 1.5em 1em 1.5em ;
       }
-      .logo {
-        margin-left: 28%;
-      }
+
       .descriptioncontact{
         margin: 3em;
         text-align: left;
@@ -608,11 +605,7 @@ input[type=submit] {
 				padding: 2em 1em 0.1em 1em ;
         background-position: bottom center, center center;
 			}
-      .logo {
-        width: 20%;
-        height: 20%;
-        margin-left: 13%;
-      }
+
 
       .process-description {
         width: 100%;
@@ -635,8 +628,4 @@ input[type=submit] {
       .process_square p {
         font-size: 0.9em;
       }
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
     }
