@@ -91,6 +91,7 @@ label {
 form {
   margin-left: 20%;
   margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 input[type=text]:focus {
@@ -314,16 +315,17 @@ footer {
 }
 
 .logo {
-    position: absolute;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    margin-top: 0.5em;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none;
+  position: absolute;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-top: 0.5em;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
 }
+
 .slider-container{
   margin: auto 0px;
   padding-top: 2em;
@@ -406,6 +408,7 @@ footer {
 
 a, a:link, a:hover, a:active, a:visited {
   text-decoration: none !important;
+  color: #ffffff;
 }
 
 .store-info:visited {
@@ -414,10 +417,6 @@ a, a:link, a:hover, a:active, a:visited {
 
 .store-info:hover {
   color: #43CDE0;
-}
-
-.store-info:active {
-  color: #ffffff;
 }
 
 .drawer-menu-item:visited {
@@ -507,7 +506,6 @@ input[type=submit] {
       .main {
         padding: 5em 3em 3em 3em ;
       }
-
       h1 {
         font-size: 5.3em;
         padding-top: 4.5em;
@@ -533,6 +531,9 @@ input[type=submit] {
         text-align: left;
         font-size: 5.6em;
       }
+      label {
+        font-size: 12px;
+      }
     }
 
     /* Small */
@@ -547,7 +548,6 @@ input[type=submit] {
       .main {
         padding: 1em 1.5em 1em 1.5em ;
       }
-
       .descriptioncontact{
         margin: 3em;
         text-align: left;
@@ -575,6 +575,10 @@ input[type=submit] {
       }
       .process_square p {
         font-size: 0.9em;
+      }
+
+      label {
+        font-size: 12px;
       }
     }
 
@@ -605,8 +609,6 @@ input[type=submit] {
 				padding: 2em 1em 0.1em 1em ;
         background-position: bottom center, center center;
 			}
-
-
       .process-description {
         width: 100%;
         margin:0;
@@ -628,4 +630,7 @@ input[type=submit] {
       .process_square p {
         font-size: 0.9em;
       }
-    }
+
+      label {
+        font-size: 12px;
+      }
