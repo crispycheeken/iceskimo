@@ -90,7 +90,7 @@ label {
 form {
   margin-left: 20%;
   margin-bottom: 3em;
-  margin-top: 3em;
+  margin-top: -5em;
 }
 
 input[type=text]:focus {
@@ -598,10 +598,8 @@ input[type=submit] {
         margin:0;
       }
 
-      .descriptioncontact{
-        padding-top: 4%;
-        margin: 3em;
-        text-align: left;
+      .contact-form{
+        margin-top:-12em;
       }
       .drawer-brand {
         font-size: 1.3em;
