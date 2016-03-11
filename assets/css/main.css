@@ -9,11 +9,10 @@ h1 {
   font-family: 'gotham-rounded';
   text-align: center;
   font-weight: bold;
-  padding-top: 3.4em;
-  padding-bottom:30%;
   font-size: 6em;
   line-height: 115%;
   color: #FFFFFF;
+  padding-top: 20%;
 }
 
 
@@ -458,27 +457,19 @@ input[type=submit] {
 
 
 #About {
-  background-image: url("../../images/overlay.png"), url("../../images/IMG_6766.jpg");
+  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%),url("../../images/IMG_6766.jpg");
 }
 
 #Menu {
-  background-image: url("../../images/overlay.png"), url("../../images/IMG_6730.jpg");
+  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/IMG_6730.jpg");
 }
 
 #OurProcess {
-  background-image: url("../../images/overlay.png"), url("../../images/IMG_6758.jpg");
+  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/IMG_6758.jpg");
 }
 
 #Contact {
-  background-image: url("../../images/overlay.png"), url("../../images/contact.jpg");
-}
-
-/* Large */
-
-	@media screen and (max-width: 1140px) {
-    h1 {
-      padding-top:3.5em;
-      font-size: 5.7em;
+  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/contact.jpg")
     }
     #process-p {
       font-size: 2.3em;
@@ -490,7 +481,6 @@ input[type=submit] {
     hr {
       width: 40%;
     }
-  }
 
   /* Medium */
 
@@ -507,7 +497,7 @@ input[type=submit] {
       }
       h1 {
         font-size: 5.3em;
-        padding-top: 4.5em;
+
       }
       h3 {
         font-size: 1.9em;
@@ -525,8 +515,7 @@ input[type=submit] {
         font-size: 1.2em;
       }
       h1 {
-        padding-top:3.2em;
-        bottom: 25%;
+
         text-align: left;
         font-size: 5.6em;
       }
@@ -548,13 +537,12 @@ input[type=submit] {
         padding: 1em 1.5em 1em 1.5em ;
       }
       .descriptioncontact{
-        margin: 3em;
+        margin: 3em
         text-align: left;
       }
 
       h1 {
-        padding-top: 3.6em;
-        bottom: 20%;
+        padding-top: 50%;
         font-size: 3.8em;
         text-align: left;
       }
@@ -566,7 +554,7 @@ input[type=submit] {
       }
 
       #OurProcess {
-        background-image: url("../../images/overlay.png"), url("../../images/IMG_6758_smaller.jpg");
+        background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/IMG_6758_smaller.jpg");
       }
 
       .process-description {
@@ -589,8 +577,8 @@ input[type=submit] {
         min-width: 320px;
       }
       h1 {
+        padding-top:55%;
         font-size: 3.2em;
-        padding-top:3em;
       }
       h3 {
         font-size: 1.5em;
@@ -621,11 +609,15 @@ input[type=submit] {
       .drawer-brand {
         font-size: 1.3em;
       }
+      .logo {
+        left: 42%;
+      }
       #OurProcess {
-        background-image: url("../../images/overlay.png"), url("../../images/IMG_6758_smaller.jpg");
+        background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/IMG_6758_smaller.jpg");
       }
       #Contact{
-        background-image: url("../../images/overlay.png"), url("../../images/contact_360px.jpg");
+        background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/contact_360px.jpg");
+        padding-top: 25%;
       }
       .process_square p {
         font-size: 0.9em;
