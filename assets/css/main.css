@@ -74,8 +74,9 @@ hr {
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
-    height: 2.6px;
+    height: 2px;
     width: 25%;
+    border-top: none;
 
 }
 
@@ -397,8 +398,7 @@ footer {
 }
 
 .process-description {
-  width: 80%;
-  margin: 10em;
+  margin: 0 8em 0 8em;
 }
 
 #process-p {
