@@ -12,7 +12,7 @@ h1 {
   font-size: 6em;
   line-height: 115%;
   color: #FFFFFF;
-  padding-top: 20%;
+  padding-top: 23%;
 }
 
 
@@ -90,7 +90,7 @@ label {
 
 form {
   margin-left: 20%;
-  margin-bottom: 3em;
+  margin-bottom: 8em;
   margin-top: -5em;
 }
 
@@ -137,7 +137,6 @@ a, a:link, a:hover, a:active, a:visited {
 .special,.special .jumbotron {
   width: 100%;
   height:100%;
-  margin-bottom: 10px;
 }
 
 .header-img img{
@@ -209,7 +208,8 @@ a, a:link, a:hover, a:active, a:visited {
 
 .description {
   margin:4em;
-  padding-bottom: 3.5em;
+  margin-top: 7.5em;
+  padding-bottom: 4.5em;
 }
 
 .drawer-hamburger {
@@ -305,9 +305,8 @@ footer {
    background-image: url("../../images/IMG_6726.jpg");
  }
 .main {
-    padding: 6em 0 4em 0;
     width: 100%;
-    height: 78%;
+    height: 70%;
     background-color: #333;
     color: rgba(255, 255, 255, 0.75);
               fixed;
@@ -456,17 +455,13 @@ input[type=submit] {
   padding-bottom: 2em;
 }
 
-.more_margin {
-  margin: .5em 12em 0 12em;
-}
-
 
 #About {
   background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%),url("../../images/IMG_6766.jpg");
 }
 
 #Menu {
-  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/IMG_6730.jpg");
+  background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/IMG_6738.jpg");
 }
 
 #OurProcess {
@@ -474,25 +469,28 @@ input[type=submit] {
 }
 
 #Contact {
-  padding-top: 11%;
   background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/contact.jpg");
 }
 
+/* XLarge */
+@media screen and (max-width: 1680px) {
+  .process-description {
+    margin: 12.5em;
+  }
+}
 
-
-  @media screen and (max-width: 1140px) {
+/* Large */
+@media screen and (max-width: 1140px) {
     #process-p {
       font-size: 2.3em;
       padding: 0.8em;
     }
-    .main {
-    padding: 8em 0 6em 0 ;
-    }
     hr {
       width: 40%;
     }
-    .more_margin {
-      margin: .5em 12em 0 12em;
+    h1 {
+      padding-top: 25%;
+      font-size: 5em;
     }
   }
 
@@ -506,11 +504,8 @@ input[type=submit] {
       #process-p {
         font-size: 1.7em;
       }
-      .main {
-        padding: 5em 3em 3em 3em ;
-      }
       h1 {
-        font-size: 5.3em;
+        font-size: 4.8em;
 
       }
       h3 {
@@ -521,9 +516,6 @@ input[type=submit] {
         width: 80%;
         margin-left: 6em;
       }
-      .more_margin {
-        margin: 0 0 10px;
-      }
 
     }
     /* Small */
@@ -532,15 +524,11 @@ input[type=submit] {
         font-size: 1.2em;
       }
       h1 {
-
-        text-align: left;
-        font-size: 5.6em;
+        padding-top: 35%;
+        font-size: 4.4em;
       }
       label {
         font-size: 12px;
-      }
-      .more_margin {
-        margin: 0 0 10px;
       }
     }
 
@@ -552,13 +540,10 @@ input[type=submit] {
       #process-p {
         font-size: 0.8em;
       }
-      /* Main */
-      .main {
-        padding: 1em 1.5em 1em 1.5em ;
-      }
       h1 {
-        padding-top: 50%;
-        font-size: 3.8em;
+        padding-top: 43%;
+        padding-left: 3%;
+        font-size: 4.4em;
         text-align: left;
       }
       h3 {
@@ -583,9 +568,6 @@ input[type=submit] {
       label {
         font-size: 12px;
       }
-      .more_margin {
-        margin: 0 0 10px;
-      }
     }
 
     /* XXSmall */
@@ -595,7 +577,7 @@ input[type=submit] {
         min-width: 320px;
       }
       h1 {
-        padding-top:59%;
+        padding-top:63%;
         font-size: 3.5em;
       }
       h3 {
@@ -612,14 +594,16 @@ input[type=submit] {
       }
 
 			.main {
-				padding: 2em 1em 0.1em 1em ;
         background-position: bottom center, center center;
 			}
       .process-description {
         width: 100%;
         margin:0;
       }
-
+      .description {
+        margin:4em;
+        padding-bottom: 3em;
+      }
       .contact-form{
         margin-top:-12em;
       }
@@ -634,7 +618,7 @@ input[type=submit] {
       }
       #Contact{
         background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/contact_360px.jpg");
-        padding-top: 25%;
+        padding-top: 15%;
       }
       .process_square p {
         font-size: 0.9em;
@@ -643,7 +627,3 @@ input[type=submit] {
       label {
         font-size: 12px;
       }
-      .more_margin {
-        margin: 0 0 10px;
-      }
-    }
