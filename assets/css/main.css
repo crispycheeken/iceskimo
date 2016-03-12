@@ -472,12 +472,6 @@ input[type=submit] {
   background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%), url("../../images/contact.jpg");
 }
 
-/* XLarge */
-@media screen and (max-width: 1680px) {
-  .process-description {
-    margin: 12.5em;
-  }
-}
 
 /* Large */
 @media screen and (max-width: 1140px) {
