@@ -118,14 +118,87 @@
     display: none;
 }
 
+/*
+ * Caption component
+ */
+.caption {
+    position: relative;
+    overflow: hidden;
+
+    /* Only the -webkit- prefix is required these days */
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before {
+    background: rgba(255, 255, 255, .8);
+}
+
+.caption__media {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: black;
+    overflow: hidden;
+
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
+.caption__overlay__title {
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+            transform: translateY( calc(-100% - 10px) );
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay__title {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
 /* Styles */
   .slick-slide img
   {
       display: block;
-      max-width: 100px;
-      max-height: 100px;
+      max-width: 250px;
+      max-height: 250px;
+  }
+
+  .caption__overlay {
+    max-width: 250px;
+    max-height: 250px;
   }
 }
 
@@ -135,8 +208,13 @@
     .slick-slide img
     {
         display: block;
-        max-width: 100px;
-        max-height: 100px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .caption__overlay {
+      max-width: 200px;
+      max-height: 200px;
     }
 }
 
@@ -146,8 +224,13 @@
   .slick-slide img
   {
       display: block;
-      max-width: 200px;
-      max-height: 200px;
+      max-width: 300px;
+      max-height: 300px;
+  }
+
+  .caption__overlay {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
 
@@ -160,6 +243,11 @@
       max-width: 400px;
       max-height: 400px;
   }
+
+  .caption__overlay {
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 
 /* Large screens ----------- */
@@ -170,5 +258,10 @@
       display: block;
       max-width: 500px;
       max-height: 500px;
+  }
+
+  .caption__overlay {
+    max-width: 500px;
+    max-height: 500px;
   }
 }
