@@ -458,6 +458,7 @@ input[type=submit] {
 
 #About {
   background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0.8) 9%,rgba(255,255,255,0.55) 15%,rgba(255,255,255,0.3) 24%,rgba(255,255,255,0.2) 27%,rgba(117,117,117,0.3) 60%,rgba(0,0,0,0.2) 100%),url("../../images/IMG_6766.jpg");
+  background-position: center bottom, center top;
 }
 
 #Menu {
@@ -571,8 +572,9 @@ input[type=submit] {
         min-width: 320px;
       }
       h1 {
-        padding-top:63%;
-        font-size: 3.5em;
+        padding-top:51%;
+        font-size: 3.4em;
+        padding-bottom: 8%;
       }
       h3 {
         font-size: 1.5em;
