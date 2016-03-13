@@ -386,20 +386,15 @@
       </script>
 
       <script>
-      var name = $("#name").text();
-      var email = $("#email").text();
-      var content = $("#message").text();
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var content = $("#message").val();
 
       var message =
-                '<ul>'+
-                        '<li>'+
                                         'Name: ' + name +
-                        '</li>' +
                                         '_replyto: ' + email +
-                        '<li>'+
                                         'Message: ' + content +
-                        '</li>' +
-                '</ul>';
+                  ;
 
         $("#submit_button").on("click", function() {
             $.ajax({
