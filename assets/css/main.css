@@ -538,6 +538,7 @@ input[type=submit] {
       }
       #process-p {
         font-size: 0.8em;
+        padding: 0.4em;
       }
       h1 {
         padding-top: 55%;
@@ -588,6 +589,7 @@ input[type=submit] {
       }
       #process-p {
         font-size: 0.8em;
+        padding: 0.4em;
       }
       hr {
         width: 85%;
