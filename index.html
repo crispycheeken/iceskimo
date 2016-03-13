@@ -386,17 +386,11 @@
       </script>
 
       <script>
-      var name = $('#contact_form').find('#name').html();
-      var email = $('#contact_form').find('#email').html();
-      var content = $('#contact_form').find('#message').html();
 
-      var message =
-                                        'Name: ' + name +
-                                        '_replyto: ' + email +
-                                        'Message: ' + content
-                  ;
+      var message = "";
 
         $("#submit_button").on("click", function() {
+          message = $("#contactform").serialize();
             $.ajax({
                 url: "//formspree.io/fbui@ucsd.edu",
                 method: "POST",
