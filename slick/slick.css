@@ -199,6 +199,7 @@
   .caption__overlay {
     max-width: 250px;
     max-height: 250px;
+    top: 18%;
   }
 }
 
@@ -215,6 +216,7 @@
     .caption__overlay {
       max-width: 200px;
       max-height: 200px;
+      top: 18%;
     }
 }
 
