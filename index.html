@@ -402,7 +402,6 @@
                 '</ul>';
 
         $("#submit_button").on("click", function() {
-            message = $("#contact_form").serialize();
             $.ajax({
                 url: "//formspree.io/fbui@ucsd.edu",
                 method: "POST",
