@@ -386,7 +386,20 @@
       </script>
 
       <script>
-      var message = "";
+      var name = $("#name").text();
+      var email = $("#email").text();
+      var content = $("#message").text();
+
+      var message =
+                '<ul>'+
+                        '<li>'+
+                                        'Name: ' + name +
+                        '</li>' +
+                                        '_replyto: ' + email +
+                        '<li>'+
+                                        'Message: ' + content +
+                        '</li>' +
+                '</ul>';
 
         $("#submit_button").on("click", function() {
             message = $("#contact_form").serialize();
