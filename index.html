@@ -387,17 +387,17 @@
       </script>
 
       <script>
+<<<<<<< HEAD
       var name = $('#contact_form').find('#name').val();
       var email = $('#contact_form').find('#email').val();
       var content = $('#contact_form').find('#message').val();
+=======
+>>>>>>> origin/master
 
-      var message =
-                                        'Name: ' + name +
-                                        '_replyto: ' + email +
-                                        'Message: ' + content
-                  ;
+      var message = "";
 
         $("#submit_button").on("click", function() {
+          message = $("#contactform").serialize();
             $.ajax({
                 url: "//formspree.io/fbui@ucsd.edu",
                 method: "POST",
