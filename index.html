@@ -101,7 +101,7 @@
 
     <!--Menu-->
     <section id="Menu" class="main">
-      <h1>ICESKIMO'S PRODUCTS</h1>
+      <h1>OUR PRODUCTS</h1>
     </section>
     <div class="description">
         <h3>HOW IT WORKS</h3>
@@ -247,7 +247,7 @@
 
     <!--Contact-->
     <section id="Contact" class="main">
-        <h1>CONTACT</h1>
+        <h1>CONTACT US</h1>
     </section>
       <div class="description">
         <h3 style="color:#D7B890;">EMAIL</h3>
@@ -387,17 +387,10 @@
       </script>
 
       <script>
-<<<<<<< HEAD
-      var name = $('#contact_form').find('#name').val();
-      var email = $('#contact_form').find('#email').val();
-      var content = $('#contact_form').find('#message').val();
-=======
->>>>>>> origin/master
-
       var message = "";
 
         $("#submit_button").on("click", function() {
-          message = $("#contactform").serialize();
+          message = $("#contact_form").serialize();
             $.ajax({
                 url: "//formspree.io/fbui@ucsd.edu",
                 method: "POST",
